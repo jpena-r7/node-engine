@@ -1,3 +1,6 @@
 {
+  "builders": [
+    "index.docker.io/jericop/amazonlinux-builder:base"
+  ],
   "build-plan": "github.com/paketo-community/build-plan"
 }
